@@ -16,8 +16,8 @@ RUN rpm --rebuilddb \
 		pwgen \
 		gcc \
 		gcc-c++ \
-		gdb 
-		ncurses \
+		gdb \
+		ncurses-devel \
 		python \
 		python-devel \
 		python3 \
