@@ -17,7 +17,7 @@ RUN rpm --rebuilddb \
 		gcc \
 		gcc-c++ \
 		gdb 
-		ncurses-devel \
+		ncurses \
 		python \
 		python-devel \
 		python3 \
