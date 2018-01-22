@@ -43,6 +43,7 @@ RUN rpm --rebuilddb \
         perl-ExtUtils-XSpp \
         perl-ExtUtils-CBuilder \
         perl-ExtUtils-Embed \
+        readline \
         readline-devel \
     && yum -y remove vim-minimal \
     && rm -f /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_rsa_key \
